@@ -69,51 +69,51 @@ class ChessBoard extends HTMLElement {
         let piece_image = document.createElement('img')
         piece_image.classList.add('piece-img')
         if (p === 'r') {
-            piece_image.setAttribute("src", "images/b_rook.png")
+            piece_image.setAttribute("src", "../images/b_rook.png")
             piece_image.setAttribute("alt", "black rook")
         }
         else if (p === 'n') {
-            piece_image.setAttribute("src", "images/b_horse.png")
+            piece_image.setAttribute("src", "../images/b_horse.png")
             piece_image.setAttribute("alt", "black horse")
         }
         else if (p === 'k') {
-            piece_image.setAttribute("src", "images/b_king.png")
+            piece_image.setAttribute("src", "../images/b_king.png")
             piece_image.setAttribute("alt", "black king")
         }
         else if (p === 'q') {
-            piece_image.setAttribute("src", "images/b_queen.png")
+            piece_image.setAttribute("src", "../images/b_queen.png")
             piece_image.setAttribute("alt", "black queen")
         }
         else if (p === 'p') {
-            piece_image.setAttribute("src", "images/b_pawn.png")
+            piece_image.setAttribute("src", "../images/b_pawn.png")
             piece_image.setAttribute("alt", "black pawn")
         }
         else if (p === 'b') {
-            piece_image.setAttribute("src", "images/b_bishop.png")
+            piece_image.setAttribute("src", "../images/b_bishop.png")
             piece_image.setAttribute("alt", "black bishop")
         }
         else if (p === 'R') {
-            piece_image.setAttribute("src", "images/w_rook.png")
+            piece_image.setAttribute("src", "../images/w_rook.png")
             piece_image.setAttribute("alt", "white rook")
         }
         else if (p === 'N') {
-            piece_image.setAttribute("src", "images/w_horse.png")
+            piece_image.setAttribute("src", "../images/w_horse.png")
             piece_image.setAttribute("alt", "white knight")
         }
         else if (p === 'K') {
-            piece_image.setAttribute("src", "images/w_king.png")
+            piece_image.setAttribute("src", "../images/w_king.png")
             piece_image.setAttribute("alt", "white king")
         }
         else if (p === 'Q') {
-            piece_image.setAttribute("src", "images/w_queen.png")
+            piece_image.setAttribute("src", "../images/w_queen.png")
             piece_image.setAttribute("alt", "white queen")
         }
         else if (p === 'P') {
-            piece_image.setAttribute("src", "images/w_pawn.png")
+            piece_image.setAttribute("src", "../images/w_pawn.png")
             piece_image.setAttribute("alt", "white pawn")
         }
         else if (p === 'B') {
-            piece_image.setAttribute("src", "images/w_bishop.png")
+            piece_image.setAttribute("src", "../images/w_bishop.png")
             piece_image.setAttribute("alt", "white bishop")
         }
         return piece_image

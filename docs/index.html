@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>camimgh chess board docs</title>
+</head>
+<body>
+<main>
+<h1>Chess Board Docs</h1>
+<section>
+    <h2>Usage</h2>
+    <img src="../images/chess-board-example.png" alt="image of chess board">
+    <h3>Example in code</h3>
+    <br>
+    <code>
+        &lt;chess-board position="r1bqkb1r/ppp1pppp/2np1n2/8/8/2N1PN2/PPPP1PPP/R1BQKB1R" orientation="black" notation=true&gt;&lt;/chess-board&gt;
+    </code>
+    <p>This code describes a chess board with the fen string inputted with the black side oriented towards the user and the notation displayed.</p>
+</section>
+<section>
+    <h2>List of parameters</h2>
+    <table>
+        <tr>
+            <th>Option</th>
+            <th>Type</th>
+            <th>Default</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Orientation</td>
+            <td>String</td>
+            <td>white</td>
+            <td>Determines orientation of the chess board and which color faces the user.</td>
+        </tr>
+        <tr>
+            <td>Notation</td>
+            <td>Boolean</td>
+            <td>false</td>
+            <td>Determines whether or not the notation is displayed on the chess board.</td>
+        </tr>
+        <tr>
+            <td>Position</td>
+            <td>String</td>
+            <td>start</td>
+            <td>Takes in strings in fen string notation and interprets it to create a chess board position.</td>
+        </tr>
+    </table>
+</section>
+<section>
+    <h2>Demos</h2>
+    <p>For a list of demos visit <a href="/docs/demo.html">this link.</a></p>
+</section>
+</main> 
+</body>
+</html>
