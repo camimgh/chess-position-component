@@ -1,0 +1,60 @@
+:root {
+    --even-color: #F0D9B5;
+    --odd-color:#B58863;
+    --square-dimension: 50px;
+    --board-dimension: calc(var(--square-dimension)*8);
+}
+
+.board {
+    height: var(--board-dimension);
+    width: var(--board-dimension);
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    border: 1px black solid;
+}
+
+.square {
+    height: var(--square-dimension);
+    width: var(--square-dimension);
+}
+.even {
+    background-color: var(--even-color);
+}
+
+.odd {
+    background-color: var(--odd-color);
+}
+
+.x-axis {
+    display: grid;
+    grid-template-columns: repeat(8, var(--square-dimension));
+    width: var(--board-dimension);
+    text-align: center;
+}
+
+.y-axis {
+    display: grid;
+    grid-template-rows: repeat(8, var(--square-dimension));
+    text-align: center;
+}
+
+.piece-img {
+    height: var(--square-dimension);
+    width: var(--square-dimension);
+}
+
+.board_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.y-axis-square {
+    display: flex;
+    align-self: center;
+}
+.x-axis-square {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
