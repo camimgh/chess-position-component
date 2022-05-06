@@ -1,10 +1,4 @@
 # chess-position-component
-## API
-### FEN string
-Takes in standard FEN string to make board.
-### Orientation
-### Notation Display
-### --board-color-even
-### --board-color-odd
+Chess component created for 6.S063 that takes in a position and displays on a static image.
 
-no event applicable
+Website here: https://camimgh.github.io/chess-position-component/ 
